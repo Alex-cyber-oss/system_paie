@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS systeme_paie CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE systeme_paie;
+-- Base de données créée via le panneau de contrôle d'InfinityFree
+-- USE systeme_paie;
 
 DROP TABLE IF EXISTS Bulletin_Retenue;
 DROP TABLE IF EXISTS Bulletin_Prime;

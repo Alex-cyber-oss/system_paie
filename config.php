@@ -1,8 +1,10 @@
 <?php
-$host = '127.0.0.1';
-$db   = 'systeme_paie';
-$user = 'root';
-$pass = '';
+// Configuration pour InfinityFree (adapter avec vos identifiants)
+// Vérifiez dans le panneau de contrôle d'InfinityFree
+$host = 'localhost';
+$db   = 'if0_41685884_systeme_paie';
+$user = 'if0_41685884';
+$pass = '';  // Entrez le mot de passe fourni par InfinityFree
 $mysqli = new mysqli($host, $user, $pass, $db);
 if ($mysqli->connect_errno) {
     die('Échec de connexion à la base de données : ' . $mysqli->connect_error);
